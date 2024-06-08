@@ -9,7 +9,7 @@ italic = { family = "IntoneMono Nerd Font Mono", style = "Italic" }
 bold_italic = { family = "IntoneMono Nerd Font Mono", style = "Bold Italic" }
 
 [colors.primary]
-background = "#181818"
+background = "#000000"
 
 [mouse]
 hide_when_typing = true
