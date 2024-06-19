@@ -62,3 +62,8 @@ alias ls='ls --color'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# append PATH variable
+path+=('/home/roy/go/bin/')
+
+export PATH
