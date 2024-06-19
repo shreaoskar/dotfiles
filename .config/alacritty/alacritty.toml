@@ -1,18 +1,35 @@
+import = [
+"~/.config/alacritty/keybindings.toml",
+]
+live_config_reload = true
+ipc_socket = true
+
 [shell]
 program = "/bin/zsh"
-args = ["-l"]
+
+[window]
+padding = { x = 1, y = 1 }
+dynamic_padding = true
+decorations = "Full"
+decorations_theme_variant = "Dark"
+dynamic_title = true
+resize_increments = true
 
 [font]
 normal = { family = "IntoneMono Nerd Font Mono", style = "Regular" }
 bold = { family = "IntoneMono Nerd Font Mono", style = "Bold" }
 italic = { family = "IntoneMono Nerd Font Mono", style = "Italic" }
 bold_italic = { family = "IntoneMono Nerd Font Mono", style = "Bold Italic" }
+size = 14
 
 [colors.primary]
 background = "#000000"
 
 [mouse]
 hide_when_typing = true
+
+[selection]
+save_to_clipboard = true
 
 [debug]
 # render_timer = true
