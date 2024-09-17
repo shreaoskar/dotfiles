@@ -58,6 +58,13 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias zed='zeditor .'
+alias rinit='cargo init && zeditor .'
+
+# Functions
+mkgt() {
+  mkdir "$1" && cd "$1"
+}
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -65,5 +72,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # append PATH variable
 path+=('/home/roy/go/bin/')
+path+=('/home/roy/.cargo/bin/')
 
 export PATH
