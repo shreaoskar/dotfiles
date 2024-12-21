@@ -73,5 +73,8 @@ eval "$(zoxide init --cmd cd zsh)"
 # append PATH variable
 path+=('/home/roy/go/bin/')
 path+=('/home/roy/.cargo/bin/')
+path+=('/home/roy/applications/clion-2024.2.1/bin')
 
 export PATH
+. "/home/roy/.deno/env"
+source /home/roy/.config/broot/launcher/bash/br
